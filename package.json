@@ -1,0 +1,28 @@
+{
+  "name": "sails-test-app",
+  "version": "0.0.2",
+  "description": "a sails app",
+  "main": "app.js",
+  "dependencies": {
+    "sails": "^0.12.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MennoVanDiermen/sails-test-app.git"
+  },
+  "keywords": [
+    "sails",
+    "nodejs",
+    "web-app"
+  ],
+  "author": "MennoV",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MennoVanDiermen/sails-test-app/issues"
+  },
+  "homepage": "https://github.com/MennoVanDiermen/sails-test-app#readme"
+}
