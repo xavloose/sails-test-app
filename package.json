@@ -4,6 +4,7 @@
   "description": "a sails app",
   "main": "app.js",
   "dependencies": {
+    "bootstrap": "^4.0.0-beta",
     "sails": "^0.12.14"
   },
   "devDependencies": {},
