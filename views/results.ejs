@@ -1,0 +1,63 @@
+<div class="container py-5">
+  <div class="row">
+    <div class="col-lg-6 mx-auto">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+        <span class="input-group-btn">
+          <button class="btn btn-secondary" type="button">Search</button>
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container mw-100 w-100 bg-white pt-5">
+  <div class="row">
+    <h3 class="mx-auto">Search results for: <%= query %></h3>
+  </div>
+  <div class="row">
+    <div class="col mx-2">
+      <h2 class="pt-5">Tools</h2>
+      <table class="table table-sm thead-light table-hover">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Version</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% for(var i=0; i<tools.length; i++) { %>
+          <tr>
+            <th scope="row"><%= tools[i].id %></th>
+            <th><%= tools[i].name %></th>
+            <th><%= tools[i].version %></th>
+          </tr>
+        <% } %>
+        </tbody>
+      </table>
+    </div>
+    <div class="col mx-2">
+      <h2 class="pt-5">Images</h2>
+      <table class="table table-sm thead-light table-hover">
+        <thead>
+          <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Name</th>
+            <th scope="col">Version</th>
+          </tr>
+        </thead>
+        <tbody>
+        <% for(var i=0; i<imgs.length; i++) { %>
+          <tr>
+            <th scope="row"><%= imgs[i].id %></th>
+            <th><%= imgs[i].name %></th>
+            <th><%= imgs[i].version %></th>
+          </tr>
+        <% } %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+</div>

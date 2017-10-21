@@ -1,36 +1,26 @@
-<div class="site-wrapper">
-  <div class="site-wrapper-inner">
-      <div class="masthead clearfix">
-        <div class="inner reads-nav">
-          <nav class="nav nav-masthead flex-row-reverse">
-              <a class="nav-link active" href="#">Help</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Home</a>
-          </nav>
+<div class="container pt-5">
+
+    <div class="row py-5">
+      <img src="/images/USDLogo.png" class="w-25 h-25 mx-auto">
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 mx-auto">
+        <div class="input-group">
+          <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button">Search</button>
+          </span>
         </div>
       </div>
+    </div>
 
-     <div class="row my-5">
-       <img src="/images/USDLogo.png" class="w-25 h-25 mx-auto">
-     </div>
-
-      <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <div class="input-group">
-              <input type="text" class="form-control" placeholder="Search for..." aria-label="Search for...">
-              <span class="input-group-btn">
-                <button class="btn btn-secondary" type="button">Search</button>
-              </span>
-            </div>
-          </div>
-        </div>
-
-        <div class="row">
-          <div class="mx-auto my-5">
-            <h1>Search the READS database of over <%= 15 * 1000 %> resources</h1>
-          </div>
-       </div>
-
+    <div class="row">
+      <div class="mx-auto py-5">
+        <h1>Search the READS database of over <%= entries %> resources</h1>
       </div>
-  </div>
+    </div>
+
 </div>
+
+<script src=""></script>
